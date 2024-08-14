@@ -1,8 +1,8 @@
 const axios = require('axios');
 const fs = require('fs').promises;
 
-const apiKey = 'cc5807a0-d4bf-41a7-94c3-1690283903d5';
-const tokenId = '2eecd1a9-1c23-4a55-823c-1453426eacdc';
+const apiKey = '';
+const tokenId = '';
 const mintAddressesFile = 'mint_addresses.json';
 const lastProcessedIdFile = 'last_processed_id.txt';
 
