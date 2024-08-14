@@ -1,7 +1,7 @@
 const fs = require('fs').promises;
 const axios = require('axios');
 
-const HELIUS_API_KEY = '9a0a2acf-471e-4fc0-9ebd-0624001668c1'; // Replace with your actual Helius API key
+const HELIUS_API_KEY = ''; // Replace with your actual Helius API key
 const url = `https://mainnet.helius-rpc.com/?api-key=${HELIUS_API_KEY}`;
 const mintAddressesFile = 'mint_addresses.json';
 const holderDataFile = 'holder_data.json';
